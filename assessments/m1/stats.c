@@ -9,17 +9,17 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c
+ * @brief Statistical analytics on a datasets
  *
- * <Add Extended Description Here>
+ * The purpose of this assessment is to refresh concepts of C launguage. 
+ * Prints statistics to the command line using a variety of 
+ * c-programming operators and features.
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Alejandro Arcila Mora
+ * @date 2021/10/16
  *
  */
-
-
 
 #include <stdio.h>
 #include "stats.h"

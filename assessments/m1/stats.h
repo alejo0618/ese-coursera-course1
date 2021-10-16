@@ -1,5 +1,5 @@
 /******************************************************************************
- * Copyright (C) 2017 by Alex Fosdick - University of Colorado
+ * Copyright (C) 2017 by Alex Fosdic
  *
  * Redistribution, modification or use of this software in source or binary
  * forms is permitted as long as the files maintain this copyright. Users are 
@@ -9,13 +9,14 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.h
+ * @brief Header file for the stats function
  *
- * <Add Extended Description Here>
+ * This file contains the declaration of functions that allow basic array 
+ * manipulation and statistics functions.
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Alejandro Arcila Mora
+ * @date 2021/10/16
  *
  */
 #ifndef __STATS_H__
@@ -38,3 +39,6 @@
 
 
 #endif /* __STATS_H__ */
+
+
+
