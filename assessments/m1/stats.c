@@ -36,7 +36,8 @@ void main() {
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
   print_array(test, SIZE);
-
+  sort_array(test, SIZE);
+  print_array(test, SIZE);
 }
 
 
@@ -77,5 +78,18 @@ unsigned char find_minimum(unsigned char * arr, unsigned int arr_size)
 
 unsigned char sort_array(unsigned char * arr, unsigned int arr_size)
 {
-
+  // Implementing a buble sort function to order the array
+  for (int i = 0; i < arr_size; i++)
+  {
+    for (int j = i + 1; j < arr_size; j++)
+    {
+      // Swap items when to order values from largest to smallest
+      if (arr[i] < arr[j])
+      {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+      }  
+    }    
+  }
 }
