@@ -36,8 +36,12 @@ void main() {
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
   print_array(test, SIZE);
-  sort_array(test, SIZE);
+
+  find_maximum(test, SIZE);
+  find_minimum(test, SIZE);
+
   print_array(test, SIZE);
+
 }
 
 
@@ -68,12 +72,16 @@ unsigned char find_mean(unsigned char * arr, unsigned int arr_size)
 
 unsigned char find_maximum(unsigned char * arr, unsigned int arr_size)
 {
-
+  // Using the same functions to obtain the results  
+  sort_array(arr, arr_size);
+  printf("Maximum value: %d\n", arr[0]);
 }
 
 unsigned char find_minimum(unsigned char * arr, unsigned int arr_size)
 {
-
+  // Using the same functions to obtain the results  
+  sort_array(arr, arr_size);
+  printf("Minimum value: %d\n", arr[arr_size - 1]);
 }
 
 unsigned char sort_array(unsigned char * arr, unsigned int arr_size)
