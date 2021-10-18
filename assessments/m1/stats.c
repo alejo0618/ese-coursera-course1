@@ -35,6 +35,8 @@ void main() {
                               201,   6,  12,  60,   8,   2,   5,  67,
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
+  print_array(test, SIZE);
+
 }
 
 
@@ -45,7 +47,12 @@ unsigned char print_statistics(unsigned char * arr, unsigned int arr_size)
 
 unsigned char print_array(unsigned char * arr, unsigned int arr_size)
 {
-
+  printf("|Row|Value|\n");
+  printf("|---|-----|\n");
+  for (int i = 0; i < arr_size; i++)
+  {
+    printf("|%3d|%5d|\n", i, arr[i]);
+  }
 }
 
 unsigned char find_median(unsigned char * arr, unsigned int arr_size)
